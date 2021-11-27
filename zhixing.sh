@@ -23,4 +23,3 @@ else
 fi
 #缓存最新ip地址
 echo $newwanip > $iptxt
-
