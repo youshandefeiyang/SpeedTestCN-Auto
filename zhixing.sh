@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #文件路径，最新ip写入lastwanip.txt 
 iptxt="/home/lastwanip.txt"
 #获取WANIP
