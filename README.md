@@ -3,4 +3,8 @@
 
 2.将两个脚本下载到/home目录下，并赋予可执行权限。
 
-3.给tisu.sh添加定时任务:`*/1 * * * * sh /home/tisu.sh`
+3.给tisu.sh添加定时任务:
+```
+crontab -e
+*/1 * * * * sh /home/tisu.sh
+```
