@@ -3,7 +3,7 @@
 ```
 newwanip=`ubus call network.interface.wan status | grep \"address\" | grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'`
 ```
-查询WANIP会更好一些（其他Linux系统不适用）！
+查询wanip会更好一些（其他Linux系统不适用）！
 
 2.将两个脚本下载到/home目录下，并赋予可执行权限。
 
