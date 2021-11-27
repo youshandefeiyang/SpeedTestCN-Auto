@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #文件路径，最新ip写入lastwanip.txt 
-iptxt="/home/tisu/lastwanip.txt"
+iptxt="/home/lastwanip.txt"
 #获取WANIP接口
 newwanip=`ubus call network.interface.wan status | grep \"address\" | grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'`
 #如接口获取不到ip，本次取消操作
